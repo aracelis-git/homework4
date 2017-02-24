@@ -23,6 +23,9 @@ public:
 	double getKp();
 	double getKd();
 	double getKi();
+	double getDt();
+	double getLastError();
+	double getLastIntegral();
 };
 
 #endif
