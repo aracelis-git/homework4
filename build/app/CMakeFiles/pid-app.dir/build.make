@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/viki/workspace/partner/homework4
+CMAKE_SOURCE_DIR = /home/viki/workspace/homework4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/viki/workspace/partner/homework4/build
+CMAKE_BINARY_DIR = /home/viki/workspace/homework4/build
 
 # Include any dependencies generated for this target.
 include app/CMakeFiles/pid-app.dir/depend.make
@@ -51,17 +51,17 @@ include app/CMakeFiles/pid-app.dir/flags.make
 
 app/CMakeFiles/pid-app.dir/main.cpp.o: app/CMakeFiles/pid-app.dir/flags.make
 app/CMakeFiles/pid-app.dir/main.cpp.o: ../app/main.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/viki/workspace/partner/homework4/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/viki/workspace/homework4/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object app/CMakeFiles/pid-app.dir/main.cpp.o"
-	cd /home/viki/workspace/partner/homework4/build/app && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pid-app.dir/main.cpp.o -c /home/viki/workspace/partner/homework4/app/main.cpp
+	cd /home/viki/workspace/homework4/build/app && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pid-app.dir/main.cpp.o -c /home/viki/workspace/homework4/app/main.cpp
 
 app/CMakeFiles/pid-app.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pid-app.dir/main.cpp.i"
-	cd /home/viki/workspace/partner/homework4/build/app && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/viki/workspace/partner/homework4/app/main.cpp > CMakeFiles/pid-app.dir/main.cpp.i
+	cd /home/viki/workspace/homework4/build/app && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/viki/workspace/homework4/app/main.cpp > CMakeFiles/pid-app.dir/main.cpp.i
 
 app/CMakeFiles/pid-app.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pid-app.dir/main.cpp.s"
-	cd /home/viki/workspace/partner/homework4/build/app && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/viki/workspace/partner/homework4/app/main.cpp -o CMakeFiles/pid-app.dir/main.cpp.s
+	cd /home/viki/workspace/homework4/build/app && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/viki/workspace/homework4/app/main.cpp -o CMakeFiles/pid-app.dir/main.cpp.s
 
 app/CMakeFiles/pid-app.dir/main.cpp.o.requires:
 .PHONY : app/CMakeFiles/pid-app.dir/main.cpp.o.requires
@@ -74,17 +74,17 @@ app/CMakeFiles/pid-app.dir/main.cpp.o.provides.build: app/CMakeFiles/pid-app.dir
 
 app/CMakeFiles/pid-app.dir/pidController.cpp.o: app/CMakeFiles/pid-app.dir/flags.make
 app/CMakeFiles/pid-app.dir/pidController.cpp.o: ../app/pidController.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/viki/workspace/partner/homework4/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/viki/workspace/homework4/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object app/CMakeFiles/pid-app.dir/pidController.cpp.o"
-	cd /home/viki/workspace/partner/homework4/build/app && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pid-app.dir/pidController.cpp.o -c /home/viki/workspace/partner/homework4/app/pidController.cpp
+	cd /home/viki/workspace/homework4/build/app && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pid-app.dir/pidController.cpp.o -c /home/viki/workspace/homework4/app/pidController.cpp
 
 app/CMakeFiles/pid-app.dir/pidController.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pid-app.dir/pidController.cpp.i"
-	cd /home/viki/workspace/partner/homework4/build/app && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/viki/workspace/partner/homework4/app/pidController.cpp > CMakeFiles/pid-app.dir/pidController.cpp.i
+	cd /home/viki/workspace/homework4/build/app && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/viki/workspace/homework4/app/pidController.cpp > CMakeFiles/pid-app.dir/pidController.cpp.i
 
 app/CMakeFiles/pid-app.dir/pidController.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pid-app.dir/pidController.cpp.s"
-	cd /home/viki/workspace/partner/homework4/build/app && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/viki/workspace/partner/homework4/app/pidController.cpp -o CMakeFiles/pid-app.dir/pidController.cpp.s
+	cd /home/viki/workspace/homework4/build/app && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/viki/workspace/homework4/app/pidController.cpp -o CMakeFiles/pid-app.dir/pidController.cpp.s
 
 app/CMakeFiles/pid-app.dir/pidController.cpp.o.requires:
 .PHONY : app/CMakeFiles/pid-app.dir/pidController.cpp.o.requires
@@ -108,7 +108,7 @@ app/pid-app: app/CMakeFiles/pid-app.dir/pidController.cpp.o
 app/pid-app: app/CMakeFiles/pid-app.dir/build.make
 app/pid-app: app/CMakeFiles/pid-app.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable pid-app"
-	cd /home/viki/workspace/partner/homework4/build/app && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pid-app.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/viki/workspace/homework4/build/app && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pid-app.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 app/CMakeFiles/pid-app.dir/build: app/pid-app
@@ -119,10 +119,10 @@ app/CMakeFiles/pid-app.dir/requires: app/CMakeFiles/pid-app.dir/pidController.cp
 .PHONY : app/CMakeFiles/pid-app.dir/requires
 
 app/CMakeFiles/pid-app.dir/clean:
-	cd /home/viki/workspace/partner/homework4/build/app && $(CMAKE_COMMAND) -P CMakeFiles/pid-app.dir/cmake_clean.cmake
+	cd /home/viki/workspace/homework4/build/app && $(CMAKE_COMMAND) -P CMakeFiles/pid-app.dir/cmake_clean.cmake
 .PHONY : app/CMakeFiles/pid-app.dir/clean
 
 app/CMakeFiles/pid-app.dir/depend:
-	cd /home/viki/workspace/partner/homework4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/viki/workspace/partner/homework4 /home/viki/workspace/partner/homework4/app /home/viki/workspace/partner/homework4/build /home/viki/workspace/partner/homework4/build/app /home/viki/workspace/partner/homework4/build/app/CMakeFiles/pid-app.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/viki/workspace/homework4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/viki/workspace/homework4 /home/viki/workspace/homework4/app /home/viki/workspace/homework4/build /home/viki/workspace/homework4/build/app /home/viki/workspace/homework4/build/app/CMakeFiles/pid-app.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : app/CMakeFiles/pid-app.dir/depend
 

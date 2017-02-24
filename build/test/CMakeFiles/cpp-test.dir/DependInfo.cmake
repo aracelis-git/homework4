@@ -4,15 +4,15 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/viki/workspace/partner/homework4/app/pidController.cpp" "/home/viki/workspace/partner/homework4/build/test/CMakeFiles/cpp-test.dir/__/app/pidController.cpp.o"
-  "/home/viki/workspace/partner/homework4/test/main.cpp" "/home/viki/workspace/partner/homework4/build/test/CMakeFiles/cpp-test.dir/main.cpp.o"
-  "/home/viki/workspace/partner/homework4/test/test.cpp" "/home/viki/workspace/partner/homework4/build/test/CMakeFiles/cpp-test.dir/test.cpp.o"
+  "/home/viki/workspace/homework4/app/pidController.cpp" "/home/viki/workspace/homework4/build/test/CMakeFiles/cpp-test.dir/__/app/pidController.cpp.o"
+  "/home/viki/workspace/homework4/test/main.cpp" "/home/viki/workspace/homework4/build/test/CMakeFiles/cpp-test.dir/main.cpp.o"
+  "/home/viki/workspace/homework4/test/test.cpp" "/home/viki/workspace/homework4/build/test/CMakeFiles/cpp-test.dir/test.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/viki/workspace/partner/homework4/build/vendor/googletest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
+  "/home/viki/workspace/homework4/build/vendor/googletest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
   )
 
 # The include file search paths:

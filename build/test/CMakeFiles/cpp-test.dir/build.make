@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/viki/workspace/partner/homework4
+CMAKE_SOURCE_DIR = /home/viki/workspace/homework4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/viki/workspace/partner/homework4/build
+CMAKE_BINARY_DIR = /home/viki/workspace/homework4/build
 
 # Include any dependencies generated for this target.
 include test/CMakeFiles/cpp-test.dir/depend.make
@@ -51,17 +51,17 @@ include test/CMakeFiles/cpp-test.dir/flags.make
 
 test/CMakeFiles/cpp-test.dir/main.cpp.o: test/CMakeFiles/cpp-test.dir/flags.make
 test/CMakeFiles/cpp-test.dir/main.cpp.o: ../test/main.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/viki/workspace/partner/homework4/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/viki/workspace/homework4/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object test/CMakeFiles/cpp-test.dir/main.cpp.o"
-	cd /home/viki/workspace/partner/homework4/build/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/cpp-test.dir/main.cpp.o -c /home/viki/workspace/partner/homework4/test/main.cpp
+	cd /home/viki/workspace/homework4/build/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/cpp-test.dir/main.cpp.o -c /home/viki/workspace/homework4/test/main.cpp
 
 test/CMakeFiles/cpp-test.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp-test.dir/main.cpp.i"
-	cd /home/viki/workspace/partner/homework4/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/viki/workspace/partner/homework4/test/main.cpp > CMakeFiles/cpp-test.dir/main.cpp.i
+	cd /home/viki/workspace/homework4/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/viki/workspace/homework4/test/main.cpp > CMakeFiles/cpp-test.dir/main.cpp.i
 
 test/CMakeFiles/cpp-test.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp-test.dir/main.cpp.s"
-	cd /home/viki/workspace/partner/homework4/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/viki/workspace/partner/homework4/test/main.cpp -o CMakeFiles/cpp-test.dir/main.cpp.s
+	cd /home/viki/workspace/homework4/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/viki/workspace/homework4/test/main.cpp -o CMakeFiles/cpp-test.dir/main.cpp.s
 
 test/CMakeFiles/cpp-test.dir/main.cpp.o.requires:
 .PHONY : test/CMakeFiles/cpp-test.dir/main.cpp.o.requires
@@ -74,17 +74,17 @@ test/CMakeFiles/cpp-test.dir/main.cpp.o.provides.build: test/CMakeFiles/cpp-test
 
 test/CMakeFiles/cpp-test.dir/test.cpp.o: test/CMakeFiles/cpp-test.dir/flags.make
 test/CMakeFiles/cpp-test.dir/test.cpp.o: ../test/test.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/viki/workspace/partner/homework4/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/viki/workspace/homework4/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object test/CMakeFiles/cpp-test.dir/test.cpp.o"
-	cd /home/viki/workspace/partner/homework4/build/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/cpp-test.dir/test.cpp.o -c /home/viki/workspace/partner/homework4/test/test.cpp
+	cd /home/viki/workspace/homework4/build/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/cpp-test.dir/test.cpp.o -c /home/viki/workspace/homework4/test/test.cpp
 
 test/CMakeFiles/cpp-test.dir/test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp-test.dir/test.cpp.i"
-	cd /home/viki/workspace/partner/homework4/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/viki/workspace/partner/homework4/test/test.cpp > CMakeFiles/cpp-test.dir/test.cpp.i
+	cd /home/viki/workspace/homework4/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/viki/workspace/homework4/test/test.cpp > CMakeFiles/cpp-test.dir/test.cpp.i
 
 test/CMakeFiles/cpp-test.dir/test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp-test.dir/test.cpp.s"
-	cd /home/viki/workspace/partner/homework4/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/viki/workspace/partner/homework4/test/test.cpp -o CMakeFiles/cpp-test.dir/test.cpp.s
+	cd /home/viki/workspace/homework4/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/viki/workspace/homework4/test/test.cpp -o CMakeFiles/cpp-test.dir/test.cpp.s
 
 test/CMakeFiles/cpp-test.dir/test.cpp.o.requires:
 .PHONY : test/CMakeFiles/cpp-test.dir/test.cpp.o.requires
@@ -97,17 +97,17 @@ test/CMakeFiles/cpp-test.dir/test.cpp.o.provides.build: test/CMakeFiles/cpp-test
 
 test/CMakeFiles/cpp-test.dir/__/app/pidController.cpp.o: test/CMakeFiles/cpp-test.dir/flags.make
 test/CMakeFiles/cpp-test.dir/__/app/pidController.cpp.o: ../app/pidController.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/viki/workspace/partner/homework4/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/viki/workspace/homework4/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object test/CMakeFiles/cpp-test.dir/__/app/pidController.cpp.o"
-	cd /home/viki/workspace/partner/homework4/build/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/cpp-test.dir/__/app/pidController.cpp.o -c /home/viki/workspace/partner/homework4/app/pidController.cpp
+	cd /home/viki/workspace/homework4/build/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/cpp-test.dir/__/app/pidController.cpp.o -c /home/viki/workspace/homework4/app/pidController.cpp
 
 test/CMakeFiles/cpp-test.dir/__/app/pidController.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp-test.dir/__/app/pidController.cpp.i"
-	cd /home/viki/workspace/partner/homework4/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/viki/workspace/partner/homework4/app/pidController.cpp > CMakeFiles/cpp-test.dir/__/app/pidController.cpp.i
+	cd /home/viki/workspace/homework4/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/viki/workspace/homework4/app/pidController.cpp > CMakeFiles/cpp-test.dir/__/app/pidController.cpp.i
 
 test/CMakeFiles/cpp-test.dir/__/app/pidController.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp-test.dir/__/app/pidController.cpp.s"
-	cd /home/viki/workspace/partner/homework4/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/viki/workspace/partner/homework4/app/pidController.cpp -o CMakeFiles/cpp-test.dir/__/app/pidController.cpp.s
+	cd /home/viki/workspace/homework4/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/viki/workspace/homework4/app/pidController.cpp -o CMakeFiles/cpp-test.dir/__/app/pidController.cpp.s
 
 test/CMakeFiles/cpp-test.dir/__/app/pidController.cpp.o.requires:
 .PHONY : test/CMakeFiles/cpp-test.dir/__/app/pidController.cpp.o.requires
@@ -134,7 +134,7 @@ test/cpp-test: test/CMakeFiles/cpp-test.dir/build.make
 test/cpp-test: vendor/googletest/googletest/libgtest.a
 test/cpp-test: test/CMakeFiles/cpp-test.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable cpp-test"
-	cd /home/viki/workspace/partner/homework4/build/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cpp-test.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/viki/workspace/homework4/build/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cpp-test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 test/CMakeFiles/cpp-test.dir/build: test/cpp-test
@@ -146,10 +146,10 @@ test/CMakeFiles/cpp-test.dir/requires: test/CMakeFiles/cpp-test.dir/__/app/pidCo
 .PHONY : test/CMakeFiles/cpp-test.dir/requires
 
 test/CMakeFiles/cpp-test.dir/clean:
-	cd /home/viki/workspace/partner/homework4/build/test && $(CMAKE_COMMAND) -P CMakeFiles/cpp-test.dir/cmake_clean.cmake
+	cd /home/viki/workspace/homework4/build/test && $(CMAKE_COMMAND) -P CMakeFiles/cpp-test.dir/cmake_clean.cmake
 .PHONY : test/CMakeFiles/cpp-test.dir/clean
 
 test/CMakeFiles/cpp-test.dir/depend:
-	cd /home/viki/workspace/partner/homework4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/viki/workspace/partner/homework4 /home/viki/workspace/partner/homework4/test /home/viki/workspace/partner/homework4/build /home/viki/workspace/partner/homework4/build/test /home/viki/workspace/partner/homework4/build/test/CMakeFiles/cpp-test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/viki/workspace/homework4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/viki/workspace/homework4 /home/viki/workspace/homework4/test /home/viki/workspace/homework4/build /home/viki/workspace/homework4/build/test /home/viki/workspace/homework4/build/test/CMakeFiles/cpp-test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : test/CMakeFiles/cpp-test.dir/depend
 

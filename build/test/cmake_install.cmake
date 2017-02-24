@@ -1,4 +1,4 @@
-# Install script for directory: /home/viki/workspace/partner/homework4/test
+# Install script for directory: /home/viki/workspace/homework4/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

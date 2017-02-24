@@ -1,37 +1,37 @@
 [
 {
-  "directory": "/home/viki/workspace/partner/homework4/build/app",
-  "command": "/usr/bin/c++    -Wall -Wextra -Wpedantic -I/home/viki/workspace/partner/homework4/include    -std=gnu++1y -o CMakeFiles/pid-app.dir/main.cpp.o -c /home/viki/workspace/partner/homework4/app/main.cpp",
-  "file": "/home/viki/workspace/partner/homework4/app/main.cpp"
+  "directory": "/home/viki/workspace/homework4/build/app",
+  "command": "/usr/bin/c++    -Wall -Wextra -Wpedantic -I/home/viki/workspace/homework4/include    -std=gnu++1y -o CMakeFiles/pid-app.dir/main.cpp.o -c /home/viki/workspace/homework4/app/main.cpp",
+  "file": "/home/viki/workspace/homework4/app/main.cpp"
 },
 {
-  "directory": "/home/viki/workspace/partner/homework4/build/app",
-  "command": "/usr/bin/c++    -Wall -Wextra -Wpedantic -I/home/viki/workspace/partner/homework4/include    -std=gnu++1y -o CMakeFiles/pid-app.dir/pidController.cpp.o -c /home/viki/workspace/partner/homework4/app/pidController.cpp",
-  "file": "/home/viki/workspace/partner/homework4/app/pidController.cpp"
+  "directory": "/home/viki/workspace/homework4/build/app",
+  "command": "/usr/bin/c++    -Wall -Wextra -Wpedantic -I/home/viki/workspace/homework4/include    -std=gnu++1y -o CMakeFiles/pid-app.dir/pidController.cpp.o -c /home/viki/workspace/homework4/app/pidController.cpp",
+  "file": "/home/viki/workspace/homework4/app/pidController.cpp"
 },
 {
-  "directory": "/home/viki/workspace/partner/homework4/build/test",
-  "command": "/usr/bin/c++    -Wall -Wextra -Wpedantic -I/home/viki/workspace/partner/homework4/test/../vendor/googletest/googletest/include -I/home/viki/workspace/partner/homework4/vendor/googletest/googletest/include    -std=gnu++1y -o CMakeFiles/cpp-test.dir/main.cpp.o -c /home/viki/workspace/partner/homework4/test/main.cpp",
-  "file": "/home/viki/workspace/partner/homework4/test/main.cpp"
+  "directory": "/home/viki/workspace/homework4/build/test",
+  "command": "/usr/bin/c++    -Wall -Wextra -Wpedantic -I/home/viki/workspace/homework4/test/../vendor/googletest/googletest/include -I/home/viki/workspace/homework4/vendor/googletest/googletest/include    -std=gnu++1y -o CMakeFiles/cpp-test.dir/main.cpp.o -c /home/viki/workspace/homework4/test/main.cpp",
+  "file": "/home/viki/workspace/homework4/test/main.cpp"
 },
 {
-  "directory": "/home/viki/workspace/partner/homework4/build/test",
-  "command": "/usr/bin/c++    -Wall -Wextra -Wpedantic -I/home/viki/workspace/partner/homework4/test/../vendor/googletest/googletest/include -I/home/viki/workspace/partner/homework4/vendor/googletest/googletest/include    -std=gnu++1y -o CMakeFiles/cpp-test.dir/test.cpp.o -c /home/viki/workspace/partner/homework4/test/test.cpp",
-  "file": "/home/viki/workspace/partner/homework4/test/test.cpp"
+  "directory": "/home/viki/workspace/homework4/build/test",
+  "command": "/usr/bin/c++    -Wall -Wextra -Wpedantic -I/home/viki/workspace/homework4/test/../vendor/googletest/googletest/include -I/home/viki/workspace/homework4/vendor/googletest/googletest/include    -std=gnu++1y -o CMakeFiles/cpp-test.dir/test.cpp.o -c /home/viki/workspace/homework4/test/test.cpp",
+  "file": "/home/viki/workspace/homework4/test/test.cpp"
 },
 {
-  "directory": "/home/viki/workspace/partner/homework4/build/test",
-  "command": "/usr/bin/c++    -Wall -Wextra -Wpedantic -I/home/viki/workspace/partner/homework4/test/../vendor/googletest/googletest/include -I/home/viki/workspace/partner/homework4/vendor/googletest/googletest/include    -std=gnu++1y -o CMakeFiles/cpp-test.dir/__/app/pidController.cpp.o -c /home/viki/workspace/partner/homework4/app/pidController.cpp",
-  "file": "/home/viki/workspace/partner/homework4/app/pidController.cpp"
+  "directory": "/home/viki/workspace/homework4/build/test",
+  "command": "/usr/bin/c++    -Wall -Wextra -Wpedantic -I/home/viki/workspace/homework4/test/../vendor/googletest/googletest/include -I/home/viki/workspace/homework4/vendor/googletest/googletest/include    -std=gnu++1y -o CMakeFiles/cpp-test.dir/__/app/pidController.cpp.o -c /home/viki/workspace/homework4/app/pidController.cpp",
+  "file": "/home/viki/workspace/homework4/app/pidController.cpp"
 },
 {
-  "directory": "/home/viki/workspace/partner/homework4/build/vendor/googletest/googletest",
-  "command": "/usr/bin/c++    -Wall -Wextra -Wpedantic -I/home/viki/workspace/partner/homework4/vendor/googletest/googletest/include -I/home/viki/workspace/partner/homework4/vendor/googletest/googletest    -Wall -Wextra -Wpedantic -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=gnu++1y -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /home/viki/workspace/partner/homework4/vendor/googletest/googletest/src/gtest-all.cc",
-  "file": "/home/viki/workspace/partner/homework4/vendor/googletest/googletest/src/gtest-all.cc"
+  "directory": "/home/viki/workspace/homework4/build/vendor/googletest/googletest",
+  "command": "/usr/bin/c++    -Wall -Wextra -Wpedantic -I/home/viki/workspace/homework4/vendor/googletest/googletest/include -I/home/viki/workspace/homework4/vendor/googletest/googletest    -Wall -Wextra -Wpedantic -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=gnu++1y -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /home/viki/workspace/homework4/vendor/googletest/googletest/src/gtest-all.cc",
+  "file": "/home/viki/workspace/homework4/vendor/googletest/googletest/src/gtest-all.cc"
 },
 {
-  "directory": "/home/viki/workspace/partner/homework4/build/vendor/googletest/googletest",
-  "command": "/usr/bin/c++    -Wall -Wextra -Wpedantic -I/home/viki/workspace/partner/homework4/vendor/googletest/googletest/include -I/home/viki/workspace/partner/homework4/vendor/googletest/googletest    -Wall -Wextra -Wpedantic -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=gnu++1y -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /home/viki/workspace/partner/homework4/vendor/googletest/googletest/src/gtest_main.cc",
-  "file": "/home/viki/workspace/partner/homework4/vendor/googletest/googletest/src/gtest_main.cc"
+  "directory": "/home/viki/workspace/homework4/build/vendor/googletest/googletest",
+  "command": "/usr/bin/c++    -Wall -Wextra -Wpedantic -I/home/viki/workspace/homework4/vendor/googletest/googletest/include -I/home/viki/workspace/homework4/vendor/googletest/googletest    -Wall -Wextra -Wpedantic -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=gnu++1y -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /home/viki/workspace/homework4/vendor/googletest/googletest/src/gtest_main.cc",
+  "file": "/home/viki/workspace/homework4/vendor/googletest/googletest/src/gtest_main.cc"
 }
 ]

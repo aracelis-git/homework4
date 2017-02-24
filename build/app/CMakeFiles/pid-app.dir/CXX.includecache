@@ -8,19 +8,17 @@
 
 ../include/pidController.h
 
-/home/viki/workspace/partner/homework4/app/main.cpp
+/home/viki/workspace/homework4/app/main.cpp
 iostream
 -
 pidController.h
 -
 
-/home/viki/workspace/partner/homework4/app/pidController.cpp
+/home/viki/workspace/homework4/app/pidController.cpp
 iostream
 -
-exception
--
 ../include/pidController.h
-/home/viki/workspace/partner/homework4/include/pidController.h
+/home/viki/workspace/homework4/include/pidController.h
 
-/home/viki/workspace/partner/homework4/include/pidController.h
+/home/viki/workspace/homework4/include/pidController.h
 

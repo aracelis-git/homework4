@@ -1,4 +1,4 @@
-/home/viki/workspace/partner/homework4/build/vendor/googletest/googletest/CMakeFiles/gtest.dir
-/home/viki/workspace/partner/homework4/build/app/CMakeFiles/pid-app.dir
-/home/viki/workspace/partner/homework4/build/vendor/googletest/googletest/CMakeFiles/gtest_main.dir
-/home/viki/workspace/partner/homework4/build/test/CMakeFiles/cpp-test.dir
+/home/viki/workspace/homework4/build/vendor/googletest/googletest/CMakeFiles/gtest.dir
+/home/viki/workspace/homework4/build/app/CMakeFiles/pid-app.dir
+/home/viki/workspace/homework4/build/vendor/googletest/googletest/CMakeFiles/gtest_main.dir
+/home/viki/workspace/homework4/build/test/CMakeFiles/cpp-test.dir

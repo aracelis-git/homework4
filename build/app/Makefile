@@ -42,10 +42,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/viki/workspace/partner/homework4
+CMAKE_SOURCE_DIR = /home/viki/workspace/homework4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/viki/workspace/partner/homework4/build
+CMAKE_BINARY_DIR = /home/viki/workspace/homework4/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -113,14 +113,14 @@ install/local/fast: install/local
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/viki/workspace/partner/homework4/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/viki/workspace/partner/homework4/build/CMakeFiles /home/viki/workspace/partner/homework4/build/app/CMakeFiles/progress.marks
-	cd /home/viki/workspace/partner/homework4/build && $(MAKE) -f CMakeFiles/Makefile2 app/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/viki/workspace/partner/homework4/build/CMakeFiles 0
+	cd /home/viki/workspace/homework4/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/viki/workspace/homework4/build/CMakeFiles /home/viki/workspace/homework4/build/app/CMakeFiles/progress.marks
+	cd /home/viki/workspace/homework4/build && $(MAKE) -f CMakeFiles/Makefile2 app/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/viki/workspace/homework4/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/viki/workspace/partner/homework4/build && $(MAKE) -f CMakeFiles/Makefile2 app/clean
+	cd /home/viki/workspace/homework4/build && $(MAKE) -f CMakeFiles/Makefile2 app/clean
 .PHONY : clean
 
 # The main clean target
@@ -129,22 +129,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/viki/workspace/partner/homework4/build && $(MAKE) -f CMakeFiles/Makefile2 app/preinstall
+	cd /home/viki/workspace/homework4/build && $(MAKE) -f CMakeFiles/Makefile2 app/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/viki/workspace/partner/homework4/build && $(MAKE) -f CMakeFiles/Makefile2 app/preinstall
+	cd /home/viki/workspace/homework4/build && $(MAKE) -f CMakeFiles/Makefile2 app/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/viki/workspace/partner/homework4/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/viki/workspace/homework4/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 app/CMakeFiles/pid-app.dir/rule:
-	cd /home/viki/workspace/partner/homework4/build && $(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/pid-app.dir/rule
+	cd /home/viki/workspace/homework4/build && $(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/pid-app.dir/rule
 .PHONY : app/CMakeFiles/pid-app.dir/rule
 
 # Convenience name for target.
@@ -153,7 +153,7 @@ pid-app: app/CMakeFiles/pid-app.dir/rule
 
 # fast build rule for target.
 pid-app/fast:
-	cd /home/viki/workspace/partner/homework4/build && $(MAKE) -f app/CMakeFiles/pid-app.dir/build.make app/CMakeFiles/pid-app.dir/build
+	cd /home/viki/workspace/homework4/build && $(MAKE) -f app/CMakeFiles/pid-app.dir/build.make app/CMakeFiles/pid-app.dir/build
 .PHONY : pid-app/fast
 
 main.o: main.cpp.o
@@ -161,7 +161,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/viki/workspace/partner/homework4/build && $(MAKE) -f app/CMakeFiles/pid-app.dir/build.make app/CMakeFiles/pid-app.dir/main.cpp.o
+	cd /home/viki/workspace/homework4/build && $(MAKE) -f app/CMakeFiles/pid-app.dir/build.make app/CMakeFiles/pid-app.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -169,7 +169,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/viki/workspace/partner/homework4/build && $(MAKE) -f app/CMakeFiles/pid-app.dir/build.make app/CMakeFiles/pid-app.dir/main.cpp.i
+	cd /home/viki/workspace/homework4/build && $(MAKE) -f app/CMakeFiles/pid-app.dir/build.make app/CMakeFiles/pid-app.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -177,7 +177,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/viki/workspace/partner/homework4/build && $(MAKE) -f app/CMakeFiles/pid-app.dir/build.make app/CMakeFiles/pid-app.dir/main.cpp.s
+	cd /home/viki/workspace/homework4/build && $(MAKE) -f app/CMakeFiles/pid-app.dir/build.make app/CMakeFiles/pid-app.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 pidController.o: pidController.cpp.o
@@ -185,7 +185,7 @@ pidController.o: pidController.cpp.o
 
 # target to build an object file
 pidController.cpp.o:
-	cd /home/viki/workspace/partner/homework4/build && $(MAKE) -f app/CMakeFiles/pid-app.dir/build.make app/CMakeFiles/pid-app.dir/pidController.cpp.o
+	cd /home/viki/workspace/homework4/build && $(MAKE) -f app/CMakeFiles/pid-app.dir/build.make app/CMakeFiles/pid-app.dir/pidController.cpp.o
 .PHONY : pidController.cpp.o
 
 pidController.i: pidController.cpp.i
@@ -193,7 +193,7 @@ pidController.i: pidController.cpp.i
 
 # target to preprocess a source file
 pidController.cpp.i:
-	cd /home/viki/workspace/partner/homework4/build && $(MAKE) -f app/CMakeFiles/pid-app.dir/build.make app/CMakeFiles/pid-app.dir/pidController.cpp.i
+	cd /home/viki/workspace/homework4/build && $(MAKE) -f app/CMakeFiles/pid-app.dir/build.make app/CMakeFiles/pid-app.dir/pidController.cpp.i
 .PHONY : pidController.cpp.i
 
 pidController.s: pidController.cpp.s
@@ -201,7 +201,7 @@ pidController.s: pidController.cpp.s
 
 # target to generate assembly for a file
 pidController.cpp.s:
-	cd /home/viki/workspace/partner/homework4/build && $(MAKE) -f app/CMakeFiles/pid-app.dir/build.make app/CMakeFiles/pid-app.dir/pidController.cpp.s
+	cd /home/viki/workspace/homework4/build && $(MAKE) -f app/CMakeFiles/pid-app.dir/build.make app/CMakeFiles/pid-app.dir/pidController.cpp.s
 .PHONY : pidController.cpp.s
 
 # Help Target
@@ -234,6 +234,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/viki/workspace/partner/homework4/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/viki/workspace/homework4/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

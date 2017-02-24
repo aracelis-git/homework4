@@ -278,23 +278,21 @@ cxxabi.h
 acxx_demangle.h
 -
 
-/home/viki/workspace/partner/homework4/app/pidController.cpp
+/home/viki/workspace/homework4/app/pidController.cpp
 iostream
 -
-exception
--
 ../include/pidController.h
-/home/viki/workspace/partner/homework4/include/pidController.h
+/home/viki/workspace/homework4/include/pidController.h
 
-/home/viki/workspace/partner/homework4/include/pidController.h
+/home/viki/workspace/homework4/include/pidController.h
 
-/home/viki/workspace/partner/homework4/test/main.cpp
+/home/viki/workspace/homework4/test/main.cpp
 gtest/gtest.h
 -
 
-/home/viki/workspace/partner/homework4/test/test.cpp
+/home/viki/workspace/homework4/test/test.cpp
 gtest/gtest.h
 -
 ../include/pidController.h
-/home/viki/workspace/partner/homework4/include/pidController.h
+/home/viki/workspace/homework4/include/pidController.h
 

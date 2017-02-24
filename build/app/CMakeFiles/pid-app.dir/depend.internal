@@ -3,7 +3,7 @@
 
 app/CMakeFiles/pid-app.dir/main.cpp.o
  ../include/pidController.h
- /home/viki/workspace/partner/homework4/app/main.cpp
+ /home/viki/workspace/homework4/app/main.cpp
 app/CMakeFiles/pid-app.dir/pidController.cpp.o
- /home/viki/workspace/partner/homework4/app/pidController.cpp
- /home/viki/workspace/partner/homework4/include/pidController.h
+ /home/viki/workspace/homework4/app/pidController.cpp
+ /home/viki/workspace/homework4/include/pidController.h

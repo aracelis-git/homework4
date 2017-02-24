@@ -47,10 +47,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/viki/workspace/partner/homework4
+CMAKE_SOURCE_DIR = /home/viki/workspace/homework4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/viki/workspace/partner/homework4/build
+CMAKE_BINARY_DIR = /home/viki/workspace/homework4/build
 
 #=============================================================================
 # Directory level rules for directory app
@@ -74,7 +74,7 @@ app/preinstall:
 app/CMakeFiles/pid-app.dir/all:
 	$(MAKE) -f app/CMakeFiles/pid-app.dir/build.make app/CMakeFiles/pid-app.dir/depend
 	$(MAKE) -f app/CMakeFiles/pid-app.dir/build.make app/CMakeFiles/pid-app.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/viki/workspace/partner/homework4/build/CMakeFiles  6 7
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/viki/workspace/homework4/build/CMakeFiles  6 7
 	@echo "Built target pid-app"
 .PHONY : app/CMakeFiles/pid-app.dir/all
 
@@ -84,9 +84,9 @@ all: app/CMakeFiles/pid-app.dir/all
 
 # Build rule for subdir invocation for target.
 app/CMakeFiles/pid-app.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/viki/workspace/partner/homework4/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/viki/workspace/homework4/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 app/CMakeFiles/pid-app.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/viki/workspace/partner/homework4/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/viki/workspace/homework4/build/CMakeFiles 0
 .PHONY : app/CMakeFiles/pid-app.dir/rule
 
 # Convenience name for target.
@@ -124,7 +124,7 @@ test/preinstall:
 test/CMakeFiles/cpp-test.dir/all: vendor/googletest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f test/CMakeFiles/cpp-test.dir/build.make test/CMakeFiles/cpp-test.dir/depend
 	$(MAKE) -f test/CMakeFiles/cpp-test.dir/build.make test/CMakeFiles/cpp-test.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/viki/workspace/partner/homework4/build/CMakeFiles  1 2 3
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/viki/workspace/homework4/build/CMakeFiles  1 2 3
 	@echo "Built target cpp-test"
 .PHONY : test/CMakeFiles/cpp-test.dir/all
 
@@ -134,9 +134,9 @@ all: test/CMakeFiles/cpp-test.dir/all
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/cpp-test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/viki/workspace/partner/homework4/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/viki/workspace/homework4/build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/cpp-test.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/viki/workspace/partner/homework4/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/viki/workspace/homework4/build/CMakeFiles 0
 .PHONY : test/CMakeFiles/cpp-test.dir/rule
 
 # Convenience name for target.
@@ -176,7 +176,7 @@ vendor/googletest/googletest/preinstall:
 vendor/googletest/googletest/CMakeFiles/gtest.dir/all:
 	$(MAKE) -f vendor/googletest/googletest/CMakeFiles/gtest.dir/build.make vendor/googletest/googletest/CMakeFiles/gtest.dir/depend
 	$(MAKE) -f vendor/googletest/googletest/CMakeFiles/gtest.dir/build.make vendor/googletest/googletest/CMakeFiles/gtest.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/viki/workspace/partner/homework4/build/CMakeFiles  4
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/viki/workspace/homework4/build/CMakeFiles  4
 	@echo "Built target gtest"
 .PHONY : vendor/googletest/googletest/CMakeFiles/gtest.dir/all
 
@@ -186,9 +186,9 @@ all: vendor/googletest/googletest/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.
 vendor/googletest/googletest/CMakeFiles/gtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/viki/workspace/partner/homework4/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/viki/workspace/homework4/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 vendor/googletest/googletest/CMakeFiles/gtest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/viki/workspace/partner/homework4/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/viki/workspace/homework4/build/CMakeFiles 0
 .PHONY : vendor/googletest/googletest/CMakeFiles/gtest.dir/rule
 
 # Convenience name for target.
@@ -211,7 +211,7 @@ clean: vendor/googletest/googletest/CMakeFiles/gtest.dir/clean
 vendor/googletest/googletest/CMakeFiles/gtest_main.dir/all: vendor/googletest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f vendor/googletest/googletest/CMakeFiles/gtest_main.dir/build.make vendor/googletest/googletest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) -f vendor/googletest/googletest/CMakeFiles/gtest_main.dir/build.make vendor/googletest/googletest/CMakeFiles/gtest_main.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/viki/workspace/partner/homework4/build/CMakeFiles  5
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/viki/workspace/homework4/build/CMakeFiles  5
 	@echo "Built target gtest_main"
 .PHONY : vendor/googletest/googletest/CMakeFiles/gtest_main.dir/all
 
@@ -221,9 +221,9 @@ all: vendor/googletest/googletest/CMakeFiles/gtest_main.dir/all
 
 # Build rule for subdir invocation for target.
 vendor/googletest/googletest/CMakeFiles/gtest_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/viki/workspace/partner/homework4/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/viki/workspace/homework4/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 vendor/googletest/googletest/CMakeFiles/gtest_main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/viki/workspace/partner/homework4/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/viki/workspace/homework4/build/CMakeFiles 0
 .PHONY : vendor/googletest/googletest/CMakeFiles/gtest_main.dir/rule
 
 # Convenience name for target.
