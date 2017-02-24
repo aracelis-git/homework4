@@ -10,10 +10,7 @@
 #include <exception>
 #include "../include/pidController.h"
 
-void checkforNonNegativeValues(pidController p){
 
-
-}
 
 pidController::pidController(double kp, double kd, double ki, double dt)  :
 	kp(kp),	kd(kd),	ki(ki),	dt(dt),	lastError(0),	lastIntegral(0) {
