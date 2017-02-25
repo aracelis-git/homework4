@@ -16,4 +16,8 @@ Simple starter C++ project with:
 ```
 $ git clone --recursive https://github.com/dpiet/cpp-boilerplate.git
 ```
+## Notes and Todo 
+I would add a time array to allow simulations to be conducted with the class. 
+Changing the variables to allow for array storage would also be necessary for simulation.
+An extra test would be to ensure that the other variables could be not be manipulated using certain functions.
 
